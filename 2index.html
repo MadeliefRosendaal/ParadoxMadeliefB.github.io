@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comforter&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title> Axiomatisch Universum </title>
+    <link type="text/css" rel="stylesheet" href= "resources/css/2style.css">
+      <link rel="icon" href="resources/img/ICON.png" type="image/icon type">
+</head>
+<body>
+  <div class="hero">
+      <nav class="FirstNav">
+        <img src= "resources/img/logo.png" class="pi">
+        <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+      </nav>
+    </div>
+
+<!-- Here you can find the Escher light -->
+<section>
+      <div class="lamp-container">
+        <img src="resources/img/LampEscher.jpg" class="lamp">
+        <img src="resources/img/light.png" class="light" id="light">
+    </div>
+
+    <div class="Photo-container">
+      <a href="Gointospace(time).html" target="_blank">
+        <img src="resources/img/OIP_jfif.jpg" class="Einstein">
+      </a>
+
+<!-- Here you can find the pictures of the scientists -->
+      <a href="RF.html" target="_blank">
+        <img src="resources/img/Richard Feynman_jfif.jpg" class="Richard">
+      </a>
+
+      <a href="IN.html" target="_blank">
+        <img src="resources/img/Isaac Newton_jfif.jpg" class="Newton">
+      </a>
+
+      <a href="SH.html" target="_blank">
+       <img src="resources/img/Stephen Hawking_jfif.jpg" class="Hawking">
+      </a>
+
+      <a href="G.html" target="_blank">
+        <img src="resources/img/G_jfif.jpg" class="Godel">
+      </a>
+
+      <a href="B.html" target="_blank">
+        <img src="resources/img/Bach_jfif.jpg" class="Bach"></button>
+      </a>
+
+    </div>
+</section>
+
+<!-- JS light button -->
+<script>
+  var btn = document.getElementById("btn");
+  var light = document.getElementById("light");
+
+  function toggleBtn(){
+    btn.classList.toggle("active");
+    light.classList.toggle("on");
+  }
+
+</script>
+
+
+  </body>
+  </html>

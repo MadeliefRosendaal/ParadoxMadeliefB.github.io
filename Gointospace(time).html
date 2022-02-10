@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comforter&display=swap" rel="stylesheet">
+
+  <link type="text/css" rel="stylesheet" href= "resources\css\2style.css">
+
+  <link rel="icon" href="resources/img/ICON.png" type="image/icon type">
+</head>
+
+<body>
+
+
+        <img src= "resources/img/logo.png" class="logo2">
+
+<!-- Menu button -->
+<nav id="sideNav" class="navbarv">
+  <ul>
+    <li class="Nav9"><a href="#">HOME</a></li>
+    <li class="Nav9"><a href="#sec-2">THEORY OF RELATIVITY</a></li>
+    <li class="Nav9"><a href="#sec-3">MUSIC: VIOLIN</a></li>
+    <li class="Nav9"><a href="#sec-4">CONNECTIONS</a></li>
+    <li class="Nav9"><a href="#sec-5">Go into Space~Time</a></li>
+  </ul>
+</nav>
+
+
+<img src= "resources/img/images.png" id="menuBtn">
+
+
+  <iframe width="95%" height= "100%" src="https://www.youtube.com/embed/v_hqcip2oNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="einsteinvid"></iframe>
+
+
+
+<!-- All the sections -->
+<section id="sec-1">
+  <div>
+    <h1>Albert Einstein</h1>
+    <a href="#sec-2">
+      <div class="scroll-down"></div>
+    </a>
+  </div>
+</section>
+
+  <div>
+<section id="sec-2">
+  <div class="book">
+    <a href="#sec-3">
+      <div class="scroll-down2"></div>
+    </a>
+
+    <a href="#">
+      <div class="scroll-down3"></div>
+    </a>
+    <img src="resources/img/albert-einstein,-stars-151966.jpg">
+
+    <p><strong> E = mc^2 </strong> ― Albert Einstein “In gravitational fields
+      there are no such things as rigid bodies with Euclidean properties;
+      thus the fictitious rigid body of reference is of no avail in general relativity.”</p>
+  </div>
+      <h1> Theory of Relativity </h1>
+</section>
+</div>
+
+
+<div>
+<section id="sec-3">
+  <div class="book2">
+    <a href="#sec-4">
+      <div class="scroll-down2"></div>
+    </a>
+
+    <a href="#sec-2">
+      <div class="scroll-down3"></div>
+    </a>
+    <img src= "resources/img/violin einstein images_jfif.jpg">
+    <p> ― Albert Einstein “Music is a language
+       that doesn’t speak in particular words. It speaks in emotions,
+       and if it’s in the bones, it’s in the bones.”</p>
+  </div>
+      <h1> Music:Violin </h1>
+  </div>
+</section>
+
+<div>
+<section id="sec-4">
+  <div class="book3">
+    <a href="#sec-5">
+      <div class="scroll-down2"></div>
+    </a>
+
+    <a href="#sec-3">
+      <div class="scroll-down3"></div>
+    </a>
+    <img src= "resources/img/AIEN (2).png">
+    <p> ― Albert Einstein “The most beautiful thing we can
+       experience is the mysterious. It is the source of
+       all true art and science.”</p>
+  </div>
+      <h1> Connections </h1>
+  </div>
+</section>
+
+<div>
+<section id="sec-5">
+  <div class="book4">
+    <a href="#sec-4">
+      <div class="scroll-down3"></div>
+    </a>
+    <img src= "resources/img/Ablackhole.jpg">
+      <p> “Black holes are where God divided by zero.”</p>
+  </div>
+      <h1>Go into Space~Time</h1>
+      <p></p>
+  </div>
+</section>
+
+
+<!-- JS menu button  -->
+<script>
+  var menuBtn = document.getElementById("menuBtn");
+  var sideNav = document.getElementById("sideNav");
+
+  sideNav.style.right = "-250px";
+  menuBtn.onclick = function (){
+    if(sideNav.style.right == "-250px"){
+        sideNav.style.right = "0";
+    }
+    else{
+      sideNav.style.right = "-250px";
+    }
+  }
+</script>
+
+
+</body>
+
+
+<footer>
+</footer>
+
+</html>

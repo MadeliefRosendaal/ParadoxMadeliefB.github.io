@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comforter&display=swap" rel="stylesheet">
+
+  <link type="text/css" rel="stylesheet" href= "resources\css\2style.css">
+    <link rel="icon" href="resources/img/ICON.png" type="image/icon type">
+</head>
+
+<body>
+
+
+        <img src= "resources/img/logo.png" class="logo2">
+
+<!-- Menu button -->
+<nav id="sideNav" class="navbarv">
+  <ul>
+    <li class="Nav9"><a href="#">HOME</a></li>
+    <li class="Nav9"><a href="#sec-2">APPLE STORY</a></li>
+    <li class="Nav9"><a href="#sec-3">PRINCIPIA MATHEMATICA</a></li>
+    <li class="Nav9"><a href="#sec-4">CONNECTIONS</a></li>
+    <li class="Nav9"><a href="#sec-5">GO INTO SPACE-TIME SEARCH...</a></li>
+  </ul>
+</nav>
+
+
+<img src= "resources/img/images.png" id="menuBtn">
+
+<iframe width="95%" height= "100%" src="https://www.youtube.com/embed/kiqN2cRyA5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="einsteinvid"></iframe>
+
+
+<!-- All the sections -->
+<section id="sec-1">
+  <div>
+    <h1>Isaac Newton</h1>
+    <a href="#sec-2">
+      <div class="scroll-down"></div>
+    </a>
+  </div>
+</section>
+
+  <div>
+<section id="sec-2">
+  <div class="book">
+    <a href="#sec-3">
+      <div class="scroll-down2"></div>
+    </a>
+
+    <a href="#">
+      <div class="scroll-down3"></div>
+    </a>
+    <img src= "resources/img/Newton (1)_jfif.jpg">
+    <p> ― Isaac Newton “What we know is a drop, what we don’t know is an ocean.”</p>
+  </div>
+      <h1> Apple Story </h1>
+</section>
+</div>
+
+
+<div>
+<section id="sec-3">
+  <div class="book2">
+      <a href="#sec-4">
+        <div class="scroll-down2"></div>
+      </a>
+
+      <a href="#sec-2">
+        <div class="scroll-down3"></div>
+      </a>
+    <img src= "resources/img/MINOIP.jfif" >
+    <p>― Isaac Newton “I can calculate the motion of heavenly bodies but not the madness of people.”</p>
+  </div>
+      <h1> Principia Mathematica </h1>
+</section>
+
+<div>
+<section id="sec-4">
+  <div class="book3">
+    <a href="#sec-5">
+      <div class="scroll-down2"></div>
+    </a>
+
+    <a href="#sec-3">
+      <div class="scroll-down3"></div>
+    </a>
+    <img src= "resources/img/NewtonOIP.jfif">
+    <p> ― Isaac Newton "In the absence of any other proof, the thumb alone would convince me of God's existence."</p>
+  </div>
+      <h1> Connections </h1>
+  </div>
+</section>
+
+<div>
+<section id="sec-5">
+  <div class="book4">
+    <a href="#sec-4">
+      <div class="scroll-down3"></div>
+    </a>
+    <img src= "resources/img/Universe (1).jfif">
+      <p> ― Isaac Newton </p>
+  </div>
+      <h1>Search...</h1>
+      <p> “If I have seen further than others, it is by standing upon the shoulders of giants.” </p>
+  </div>
+</section>
+
+
+<!-- JS menu button  -->
+<script>
+  var menuBtn = document.getElementById("menuBtn");
+  var sideNav = document.getElementById("sideNav");
+
+  sideNav.style.right = "-250px";
+  menuBtn.onclick = function (){
+    if(sideNav.style.right == "-250px"){
+        sideNav.style.right = "0";
+    }
+    else{
+      sideNav.style.right = "-250px";
+    }
+  }
+</script>
+
+
+</body>
+
+
+<footer>
+</footer>
+
+</html>

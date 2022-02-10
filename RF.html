@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comforter&display=swap" rel="stylesheet">
+
+  <link type="text/css" rel="stylesheet" href= "resources\css\2style.css">
+    <link rel="icon" href="resources/img/ICON.png" type="image/icon type">
+</head>
+
+<body>
+
+
+        <img src= "resources/img/logo.png" class="logo2">
+
+<!-- Menu button -->
+<nav id="sideNav" class="navbarv">
+  <ul>
+    <li class="Nav9"><a href="#">HOME</a></li>
+    <li class="Nav9"><a href="#sec-2">EBLM J0555-57Ab</a></li>
+    <li class="Nav9"><a href="#sec-3">LOGIC</a></li>
+    <li class="Nav9"><a href="#sec-4">CONNECTIONS</a></li>
+    <li class="Nav9"><a href="#sec-5">QUANTUM MECHANICS</a></li>
+  </ul>
+</nav>
+
+
+<img src= "resources/img/images.png" id="menuBtn">
+
+<iframe width="95%" height= "100%" src="https://www.youtube.com/embed/R4xcyEdnNrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="einsteinvid"></iframe>
+
+
+<!-- All the sections -->
+<section id="sec-1">
+  <div>
+    <h1>Richard Feynman</h1>
+    <a href="#sec-2">
+      <div class="scroll-down"></div>
+    </a>
+  </div>
+</section>
+
+  <div>
+<section id="sec-2">
+  <div class="book">
+    <a href="#sec-3">
+      <div class="scroll-down2"></div>
+    </a>
+
+    <a href="#">
+      <div class="scroll-down3"></div>
+    </a>
+    <img src= "resources/img/Richard FeynOIP.jfif">
+    <p>" ― Richard P. Feynman "I figured there was no point in trying to answer
+       their accusations in detail, so I wrote a short letter
+        back to them: "Don't bug me, Man!”</p>
+  </div>
+      <h1> EBLM J0555-57 </h1>
+</section>
+</div>
+
+
+<div>
+<section id="sec-3">
+  <div class="book2">
+    <a href="#sec-4">
+      <div class="scroll-down2"></div>
+    </a>
+
+    <a href="#sec-2">
+      <div class="scroll-down3"></div>
+    </a>
+    <img src= "resources/img/Math RFOIP.jfif">
+    <p> ― Richard P. Feynman “Mathematics is a language plus reasoning;
+      it is like a language plus logic. Mathematics
+       is a tool for reasoning.”</p>
+  </div>
+      <h1> Logic </h1>
+  </div>
+</section>
+
+<div>
+<section id="sec-4">
+  <div class="book3">
+    <a href="#sec-5">
+      <div class="scroll-down2"></div>
+    </a>
+
+    <a href="#sec-3">
+      <div class="scroll-down3"></div>
+    </a>
+    <img src= "resources/img/connectionsOIP.jfif">
+    <p> ― Richard P. Feynman “I do not believe that science can
+       disprove the existence of God; I think
+        that is impossible.  And if it is impossible, is
+         not a belief in science and in a God -- an ordinary
+         God of religion -- a consistent possibility?  ”</p>
+  </div>
+      <h1> Connections </h1>
+  </div>
+</section>
+
+<div>
+<section id="sec-5">
+  <div class="book4">
+    <a href="#sec-4">
+      <div class="scroll-down3"></div>
+    </a>
+    <img src= "resources/img/QUANTUM.svg.png">
+      <p> ― Richard P. Feynman “If you think you understand quantum mechanics, you don’t understand quantum mechanics. ”</p>
+  </div>
+      <h1>Quantum Mechanics</h1>
+      <p></p>
+  </div>
+</section>
+
+
+<!-- JS menu button  -->
+<script>
+  var menuBtn = document.getElementById("menuBtn");
+  var sideNav = document.getElementById("sideNav");
+
+  sideNav.style.right = "-250px";
+  menuBtn.onclick = function (){
+    if(sideNav.style.right == "-250px"){
+        sideNav.style.right = "0";
+    }
+    else{
+      sideNav.style.right = "-250px";
+    }
+  }
+</script>
+
+
+</body>
+
+
+<footer>
+</footer>
+
+</html>
